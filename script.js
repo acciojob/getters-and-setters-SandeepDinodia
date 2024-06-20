@@ -28,6 +28,10 @@ student.study();
 const teacher = new teacher("rishabh",30);
 teacher.teach();
 
+console.log(student.name);
+console.log(student.age);
+console.log(teacher.name);
+
 // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;
