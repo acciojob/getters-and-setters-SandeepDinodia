@@ -13,13 +13,13 @@ set age(){
 
 class Student extends Person {
 	study(){
-		return `${this.name} is studying`
+		console.log(`${this.name} is studying`);
 	}
 }
 
 class Teacher extends Person {
 	teach(){
-		return `${this.name} is teaching`
+		console.log(`${this.name} is teaching`);
 	}
 }
 const student= new student("sandeep",28);
